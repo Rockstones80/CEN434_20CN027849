@@ -18,10 +18,7 @@ data = {
 df = pd.DataFrame(data)
 
 #df
+print(df)
 
-print(df.loc[0])
-df_new = pd.read_excel(r"C:\Users\donke\OneDrive\Documents\Python\array.xlsx")
-print(df_new)
 a = df.to_numpy()
-
-#print(a)
+print(a)
